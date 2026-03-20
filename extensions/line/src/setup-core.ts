@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 import type { ChannelSetupAdapter, OpenClawConfig } from "openclaw/plugin-sdk/line";
 import { DEFAULT_ACCOUNT_ID, listLineAccountIds, normalizeAccountId, resolveLineAccount, type LineConfig } from "openclaw/plugin-sdk/line";
+=======
+import type { ChannelSetupAdapter, OpenClawConfig } from "openclaw/plugin-sdk/setup";
+import {
+  DEFAULT_ACCOUNT_ID,
+  listLineAccountIds,
+  normalizeAccountId,
+  resolveLineAccount,
+  type LineConfig,
+} from "../runtime-api.js";
+>>>>>>> b36e456b09160b98779826302961c98b0ff09d9d
 
 const channel = "line" as const;
 
